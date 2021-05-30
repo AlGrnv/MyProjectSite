@@ -1,0 +1,631 @@
+﻿<!DOCTYPE html>
+<html lang="ru" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="fonts/font-awesome/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/netdna.font-awesome.css">
+  <!-- <link rel="stylesheet" href="libs/fullPage/fullpage.css"> -->
+  <link rel="stylesheet" href="libs/fancybox/fancybox@3.5.7.min.css">
+  <link rel="stylesheet" href="libs/fancybox/jquery.custom.fancybox.css">
+  <link rel="stylesheet" href="libs/slick/slick.css">
+  <link rel="stylesheet" href="libs/slick/slick-theme.css">
+  <link rel="stylesheet" href="libs/bxslider/jquery.bxslider.css">
+  <link rel="stylesheet" href="libs/bxslider/custom.bxslider.css">
+  <link rel="stylesheet" href="libs/animate/animate.css">
+  <link rel="stylesheet" href="libs/animate/hover.css">
+  <link rel="stylesheet" href="libs/animate/" />
+  <link rel="stylesheet" href="css/top-panel.css" />
+  <link rel="stylesheet" href="css/content.css" />
+  <link rel="stylesheet" href="css/page-tabs.css">
+  <!-- <link rel="stylesheet" href="css/style-content.css"> -->
+  <!-- <link rel="stylesheet" href="Css/tabs-box.css"/> -->
+  <link rel="stylesheet" href="css/accordion-ver.css" />
+  <!-- <link rel="stylesheet" href="Css/tooltip-style.css"> -->
+  <link rel="stylesheet" href="css/botttom-panel.css">
+  <script src="libs/modernizr/modernizr.js"></script>
+  <script src="libs/modernizr/modernizr.custom.js"></script>
+  <script src="libs/jquery-migrate/jquery-migrate.min.js"></script>
+  <script src="libs/jquery/jquery@3.5.1.min.js"></script>
+  <script src="js/jquery/jquery-ui.min.js"></script>
+  <script src="js/jquery/jquery.easing.min.js"></script>
+  <script src="libs/fancybox/fancybox@3.5.7.min.js"></script>
+  <!-- <script src="libs/fullPage/fullpage.js"></script> -->
+  <script src="libs/slick/slick.js"></script>
+  <script src="libs/bxslider/jquery.bxslider.js"></script>
+  <script src="js/commonScript.js"></script>
+  <!-- <script src="js/init-script.js"></script>
+  <script src="js/js.js"></script> -->
+
+</head>
+
+<body>
+  <input class="open" id="top-box" type="checkbox" hidden>
+  <label id="btn-top-box" class="btn" for="top-box"></label>
+  <div class="top-panel">
+    <div class="message">
+
+          <ul id="topmenu" class="topmenu">
+            <li class="trigger-card-btn trigger-card-home navCurrent">
+              <h5>&nbsp;home</h5>
+              <!-- <a class="link-nav navCurrent home" href=""></a> -->
+            </li>
+            <li class="trigger-card-btn trigger-card-item-1">
+              <!-- <a id="showLink-1" class="showLink" href=""></a> -->
+              <h5>red&nbsp; showroom</h5>
+              <!-- <span class="showLink-1 fa fa-angle-down"></span> -->
+              <!-- <ul id="showList-1_submenu" class="submenu">
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+              </ul> -->
+            </li>
+            <li class="trigger-card-btn trigger-card-item-2">
+
+              <!-- <a id="showLink-2" class="showLink" href=""></a> -->
+              <h5>yellow&nbsp; showroom</h5>
+              <!-- <span class="showLink-2 fa fa-angle-down"></span> -->
+              <!-- <ul id="showList-2_submenu" class="submenu">
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+              </ul> -->
+            </li>
+            <li class="trigger-card-btn trigger-card-item-3">
+              <!-- <a  class="showLink" href="#"></a> -->
+              <h5>green&nbsp; showroom</h5>
+              <!-- <span class="showLink-3 fa fa-angle-down"></span> -->
+              <!-- <ul id="showList-3_submenu" class="submenu">
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+              </ul> -->
+            </li>
+            <li class="trigger-card-btn trigger-card-item-4">
+              <!-- <a  class="showLink" href=""></a> -->
+              <h5>blue&nbsp; showroom</h5>
+              <!-- <span class="showLink-4 fa fa-angle-down"></span> -->
+              <!-- <ul id="showList-4_submenu" class="submenu">
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+                <li><a href="#" class="link-nav linkLoad">categories</a></li>
+              </ul> -->
+            </li>
+          </ul>
+
+      <!-- <div id="wrap-nav" class="trigger-card">
+        <nav id="menu" class="toggleMenu">
+          
+        </nav>
+      </div> -->
+    </div>
+  </div>
+  <main id="main" class="main">
+    <div id="left-column" class="left-column">
+      <div class="menu-tultip">menu</div>
+    </div>
+    <div id="content-column" class="content-column">
+      <div id="contentWrap" class="content-wrap">
+        <div id="statusBar" class="statusBar">
+          <ul id="breadcrumbs" class = "breadcrumbs">
+            <li class="bcrumbsItem item1 bcrumbsItem-Home"></li>
+            <li class="dash itemDash2"></li>
+            <li class="bcrumbsItem item2 bcrumbsItem-Red   "></li>
+            <li class="dash itemDash4"></li>
+            <li class="bcrumbsItem item3 bcrumbsItem-Yellow"></li>
+            <li class="dash itemDash6"></li>
+            <li class="bcrumbsItem item4 bcrumbsItem-Green"></li>
+            <li class="dash itemDash8"></li>
+            <li class="bcrumbsItem item5 bcrumbsItem-Blue"></li>
+            <li class="dash itemDash10"></li>
+            <li class="bcrumbsItem item6"></li>
+            <li class="dash itemDash12"></li>
+            <li class="bcrumbsItem item7"></li>
+            <li class="dash itemDash14"></li>
+            <li class="bcrumbsItem item8"></li>
+            <li class="dash itemDash16"></li>
+            <li class="bcrumbsItem item9"></li>
+            <li class="dash itemDash18"></li>
+            <li class="bcrumbsItem item10"></li>
+            <li class="septum"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <!-- <div class="septum"></div>
+          <div></div> -->
+        </div>
+        <div id="content-box" class="content-box">
+          <img class="loader" src="image/loader.gif" alt="Загрузка" width="50px" height="50px">
+        </div>
+        <!-- <div id="indicatorLoad" class="indicatorLoad"></div> -->
+        
+        <div id="wrap-slider" class="wrap-slider">
+          <div id="map-home" class="showroom-map">
+            <div class="card card1">
+              <p>red showroom</p>
+            </div>
+            <div class="card card2">
+              <p>yellow showroom</p>
+            </div>
+            <div class="card card3">
+              <p>green showroom</p>
+            </div>
+            <div class="card card4">
+              <p>blue showroom</p>
+            </div>
+            <div class="wrapTile">
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+
+              <!-- <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div>
+              <div class="tile"></div> -->
+            </div>
+            
+          </div>
+          <div id="showroom-1" class="showroom">
+            <div id="sr_sl_section_1" class="showrooms-slider-section-1 showroom-page">
+              <!-- <div id="showroom-1-show-box" class="content-box">
+                    <div  class="showItem"></div>
+                  </div> -->
+              <div id="showroom-1-preview" class="preview-box">
+                <div class="preview">
+                  <a class="item-1-1 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-2 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-3 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-4 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-5 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-6 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-7 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-8 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-9 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-10 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-11 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-12 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-13 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-1-14 linkLoad" href="include-sub-web-page/first-page-tabs-showroom.html">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  </a>
+                </div>
+
+              </div>
+              <div></div>
+            </div>
+          </div>
+
+          <div id="showroom-2" class="showroom">
+            <div id="sr_sl_section_2" class="showrooms-slider-section-2 pr-slider showroom-page">
+              <!-- <div id="showroom-2-show-box" class="content-box">
+                    <div class="showItem"></div>
+                  </div> -->
+              <div id="showroom-2-preview" class="preview-box">
+                <div class="preview">
+                  <a class="item-2-1 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-2 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-3 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-4 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-5 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-6 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-7 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-8 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-9 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-10 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-11 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-12 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-13 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-2-14 linkLoad" href="include-sub-web-page/second-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </div>
+
+          <div id="showroom-3" class="showroom">
+            <div id="sr_sl_section_3" class="showrooms-slider-section-3 pr-slider showroom-page">
+              <!-- <div id="showroom-3-show-box" class="content-box">
+                    <div class="showItem"></div>
+                  </div> -->
+              <div id="showroom-3-preview" class="preview-box">
+                <div class="preview">
+                  <a class="item-3-1 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-2 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-3 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-4 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-5 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-6 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-7 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-8 linkLoad" href="include-sub-web-page/third-page-tab1s-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-9 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-10 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-11 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-12 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-13 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-3-14 linkLoad" href="include-sub-web-page/third-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                
+              </div>
+              <div></div>
+            </div>
+          </div>
+          
+          <div id="showroom-4" class="showroom">
+            <div id="sr_sl_section_4" class="showrooms-slider-section-4 pr-slider showroom-page">
+              <!-- <div id="showroom-4-show-box" class="content-box">
+                    <div class="showItem"></div>
+                  </div>          -->
+              <div id="showroom-4-preview" class="preview-box">
+                <div class="preview">
+                  <a class="item-4-1 linkLoad" href="include-sub-web-page/fourth-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-2 linkLoad" href="include-sub-web-page/fourth-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-3 linkLoad" href="include-sub-web-page/fourth-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-4 linkLoad" href="include-sub-web-page/fourth-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-5 linkLoad" href="include-sub-web-page/fourth-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-6 linkLoad" href="include-sub-web-page/fourth-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-7 linkLoad" href="include-sub-web-page/fourth-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-8 linkLoad" href="include-sub-web-page/fourth-page-tab1s-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-9 linkLoad" href="include-sub-web-page/fourth-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-10 linkLoad" href="include-sub-web-pagefourthd-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-11 linkLoad" href="include-sub-web-pagefourthd-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-12 linkLoad" href="include-sub-web-pagefourthd-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-13 linkLoad" href="include-sub-web-pagefourthd-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+                <div class="preview">
+                  <a class="item-4-14 linkLoad" href="include-sub-web-pagefourthd-page-tabs-showroom.html">
+                    Lorem ipsum dolot consectetur adipisicing elit. 
+                  </a>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="right-column" class="right-column">
+      <div class="btn-autorization">
+        <a href="#" id="autorization" class="autorization" tooltip="авторизация" flow="left">
+        </a>
+        <!-- <a id="autorization" class="autorization" data-fancybox="" data-type="iframe"
+          data-src="include-sub-web-page/index-form-autorization.html" href="javascript:;" tooltip="авторизация"
+          flow="left">
+        </a> -->
+      </div>
+      <div class="arrow-up"></div>
+      <div class="arrow-down"></div>
+    </div>
+  </main>
+  <div id="modal-bottom">
+    <a class="mb-btn-open js-click-modal-comment" tooltip="коментарии" flow="right">
+      <i class="fa fa-comments-o" aria-hidden="true"></i>
+    </a>
+    <div class="modal modal-left">
+      <header class="header comment-box">
+        <span>коментарии</span>
+        <a class="btn-close btn-close-comment js-close-modal-comment"></a>
+      </header>
+      <div class="mb-content comment-box">
+        <div class="comment-content">
+          <form id="comment_form" class="comment_form" name="comment_form" action="comment.php" method="POST"
+            enctype="multipart/form-data">
+            <div class="wrap-input-comment">
+              <div class="box-inputuser-comment">
+                <span class="icon-color icon-user-comment"></span>
+                <input id="user-name-comment" class="user-name-comment" placeholder="Ваше имя" type="text" value=""
+                  name="search" required />
+              </div>
+              <div class="box-buttonsubmit-comment">
+                <span class="icon-color btn-send-icon-comment"></span>
+                <input class="btn-send-comment" type="submit" value="" title="отправить" />
+                <input type="hidden" name="page_id" value="150" />
+              </div>
+            </div>
+            <textarea id="textarea-comment" cols="30" rows="50" placeholder="ДОБАВИТЬ КОМЕНТАРИИ"></textarea>
+          </form>
+        </div>
+      </div>
+      <footer class="footer comment-box">
+        <span class="text-style-footer">все права защищены</span>
+      </footer>
+    </div>
+    <a class="mb-btn-open js-click-modal-feedback" tooltip="обратная связь" flow="left">
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+    </a>
+    <div class="modal modal-right">
+      <header class="header comment-box">
+        <span>обратная связь</span>
+        <a class="btn-close btn-close-feedback js-close-modal-feedback"></a>
+      </header>
+      <div class="mb-content comment-box">
+        <div class="feedback-content">
+          <form id="feedback_form" class="feedback_form" name="feedback" action="mail.php" method="post"
+            enctype="multipart/form-data">
+            <!-- Hidden Required Fields это обязательные скрытые плоя-->
+            <input type="hidden" name="project_name" value="Site Name"> <!-- реальное название сайта -->
+            <input type="hidden" name="admin_email" value="aleksey.grnv@gmail.com">
+            <!-- реальное название ящика электронной почты -->
+            <input type="hidden" name="form_subject" value="Обращение с сайта">
+            <!-- поле темы письма - заполнить реальным названием -->
+            <!-- END Hidden Required Fields -->
+            <!-- дополнительные  пользовательские поля, их количество не ограничено -->
+            <!-- атрибут name можно заполнить и русскими словами -->
+            <div class="wrap-input-feedback">
+              <div class="box-inputuser-feedback">
+                <span class="icon-color icon-user-feedback"></span>
+                <input id="user-name-feedback" class="user-name-feedback" placeholder="Ваше имя" type="text" value=""
+                  name="search" required />
+                <i class="label-user-name-feedback">*</i>
+              </div>
+              <div class="box-inputmail-feedback">
+                <span class="icon-color icon-email-feedback"></span>
+                <input id="user-email-feedback" class="user-email-feedback" placeholder="Ваш @email" type="email"
+                  name="email" required pattern="\S+@[a-z]+.[a-z]+" />
+                <i class="label-user-email-feedback">*</i>
+              </div>
+              <div class="box-inputphone-feedback">
+                <span class="icon-color icon-phone-feedback"></span>
+                <input id="user-phone-feedback" class="user-phone-feedback" placeholder="Номер тел." type="tel"
+                  name="Phone" pattern="8[0-9]{10}" />
+              </div>
+              <div class="box-buttonsubmit-feedback">
+                <span class="icon-color btn-send-icon-feedback"></span>
+                <input class="btn-send-feedback" type="submit" value="" title="отправить">
+              </div>
+            </div>
+            <textarea id="textarea-feedback" placeholder="ОСТАВИТЬ ОБРАЩЕНИЕ"></textarea>
+            <div class="notes">поля отмеченные * обязательны для заполнения</div>
+          </form>
+        </div>
+      </div>
+      <footer class="footer comment-box">
+        <span class="text-style-footer">все права защищены</span>
+      </footer>
+    </div>
+  </div>
+  <!-- script teg -->
+  <div>
+    <script src="js/jsTopModal/classie.js"></script>
+    <script src="js/jsTopModal/modalEffects.js"></script>
+    <script>
+      var polyfilter_scriptpath = '/js/';
+    </script>
+    <script src="js/jsTopModal/cssParser.js"></script>
+    <script src="js/jsTopModal/css-filters-polyfill.js"></script>
+  </div>
+</body>
+
+</html>
