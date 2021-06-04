@@ -1,0 +1,90 @@
+img {
+border-style: none;
+}
+
+.logo {
+padding-bottom: 15px;
+}
+
+span.heading {
+font-size: 1.2em;
+color: #27408B;
+}
+
+span.heading_note {
+font-size: 0.9em;
+font-style: italic;
+}
+
+span.field {
+color: #8B1A1A;
+font-weight: bold;
+}
+
+span.field_note {
+font-size: 0.75em;
+}
+
+span.part {
+color: #000080;
+font-weight: bold;
+}
+
+span.example {
+font-size: 0.8em;
+}
+
+span.example_note {
+font-size: 0.8em;
+font-weight: bold;
+}
+
+span.success {
+color: #006600;
+font-weight: bold;
+}
+
+span.fail {
+color: #CC0000;
+font-weight: bold;
+}
+
+span.system_green {
+color: #006600;
+font-weight: bold;
+}
+
+span.system_amber {
+color: #FFAC00;
+font-weight: bold;
+}
+
+span.system_red {
+color: #CC0000;
+font-weight: bold;
+}
+
+label.system_item {
+float: left;
+width: 193px;
+}
+
+label.upgrade_item {
+color: #27408B;
+font-weight: bold;
+float: left;
+width: 125px;
+}
+
+.button {
+background: url("../images/buttons/gradient.gif") repeat-x scroll 0 100% #FFAC47;
+border-color: #ED6502 #A04300 #A04300 #ED6502;
+border-style: solid;
+border-width: 1px;
+color: #FFFFFF;
+cursor: pointer;
+font: bold 12px arial,helvetica,sans-serif;
+padding: 1px 7px 2px;
+text-align: center !important;
+white-space: nowrap;
+}

@@ -1,0 +1,353 @@
+/* a:link, a:visited {
+	text-decoration: none;
+	font-family: sans-serif;
+	color:#3c3c3c;
+	border: 2px solid #b3b3b3;
+	border-radius: 15px;
+	background: #fcfcfc;
+	width:36px;
+	height:16px;
+	padding:5px 10px 5px 10px;
+	margin:5px;
+}
+.no-touch a:hover, a:active {
+	color:#3c3c3c;
+    background:#92e8ff;}
+    
+    [id^="example9-"] {
+        font-family: sans-serif;
+        color:#3c3c3c;
+        background: #fcfcfc;
+        border: 2px solid #b3b3b3;
+        border-radius: 15px;
+        text-decoration: none;
+        width:450px;
+        height:150px;
+        padding:10px 0px 5px 15px;
+        margin:10px;
+        font-size:20px;
+    }
+
+    #example9-click-prev, #example9-click-next {
+        text-decoration: none;
+	display:block;
+	position:relative;
+	float:left;
+	width:36px;
+	height:16px;
+	font-size:12px;
+	padding:5px 0px 5px 10px;
+	margin:5px;
+    }
+
+    [id^="example9-"] {
+        display:block;
+        position:absolute;
+        width:45px;
+        height:55px;
+    }
+
+    .no-touch [id^="example9-"]:hover, 
+    [id^="example9-"].active   {
+        background:#92e8ff;
+    }
+
+    #example9-click-prev, #example9-click-next {
+        top:210px;
+    } 
+    #mycounter {
+        text-decoration: none;
+        display:block;
+        position:relative;
+        float:left;
+        font-size:12px;
+        padding:5px 0px 5px 10px;
+        margin:6px 0px;
+    }
+     #example9-click-scrollOut {
+        color:#3c3c3c;
+        background: #fcfcfc;
+        
+        top:222px;
+        display:block;
+        position:relative;
+        float:left;
+        width:370px;
+        height:19px;
+        background:#e2e2e2;
+        margin:0px 10px;padding:0px;
+        border:0px solid #3c3c3c;
+    }
+     #example9-click-scrollIn {
+        color:#3c3c3c;
+        border:2px solid #b3b3b3;
+        background: #fcfcfc;
+    
+        display:block;
+        position:absolute;
+        width:60px;
+        height:15px;
+        background:#fcfcfc;
+        margin:0px;padding:0px;
+    }
+
+    .no-touch #example9-click-scrollIn:hover, #example9-click-scrollIn.active {
+        background:#92e8ff;
+    }
+    #example9-click-dragOut  {
+        border-radius:20px;
+        overflow:hidden;
+        float:left;
+        width:490px;
+        height:190px;
+        left:0px;
+        margin:0px;padding:0px;
+        border:2px solid #e2e2e2;
+    }
+    #example9-click-dragOut {
+        opacity:0;filter:alpha(opacity=0);border-radius:0px;
+        width:520px;
+        height:210px;
+    }
+    #example9-click-dragIn {
+        opacity:0;filter:alpha(opacity=0);border-radius:0px;
+        height:210px;
+    }
+
+     */
+
+
+    
+    a:link, a:visited {
+        text-decoration: none;
+        font-family: sans-serif;
+        color:#3c3c3c;
+        border: 2px solid #b3b3b3;
+        border-radius: 15px;
+        background: #fcfcfc;
+        width:36px;
+        height:16px;
+        padding:5px 10px 5px 10px;
+        margin:5px;
+    }
+    .no-touch a:hover, a:active {
+        color:#3c3c3c;
+        background:#92e8ff;
+    }
+    [id^="example1a-"], [id^="example1b-"], [id^="example101b-"], [id^="example2-"], [id^="example3a-"], [id^="example3b-"], [id^="example3d-"], [id^="example3f-"], [id^="example4a-"], [id^="example4b-"], [id^="example7a-"], .example7a-inside, [id^="example7b-"], .example8a-inside, [id^="example8b-"], [id^="example9-"], [id^="example10-"], [id^="example11-"], [id^="example12-"], [id^="example13-"], [id^="example14-"], [id^="example15-"] {
+        font-family: sans-serif;
+        color:#3c3c3c;
+        background: #fcfcfc;
+        border: 2px solid #b3b3b3;
+        border-radius: 15px;
+        text-decoration: none;
+        width:450px;
+        height:150px;
+        padding:10px 0px 5px 15px;
+        margin:10px;
+        font-size:20px;
+    }
+    [id^="example1b-"], [id^="example101b-"], [id^="example3b-"], [id^="example3d-"], [id^="example3f-"], [id^="example7b-"], [id^="example8b-"], #example2-click-prev, #example2-click-next, #example7a-click-prev, #example7a-click-next, #example9-click-prev, #example9-click-next, [id^="example12-"], [id^="example13-"], [id^="example14-"], [id^="example15-"] {
+        text-decoration: none;
+        display:block;
+        position:relative;
+        float:left;
+        width:36px;
+        height:16px;
+        font-size:12px;
+        padding:5px 0px 5px 10px;
+        margin:5px;
+    }
+    [id^="example4a-"], [id^="example4b-"] {
+        display:block;
+        position:relative;
+        float:left;
+        width:45px;
+        height:55px;
+    }
+    [id^="example9-"], [id^="example11-"] {
+        display:block;
+        position:absolute;
+        width:45px;
+        height:55px;
+    }
+    [id^="example10-"] {
+        display:block;
+        position:absolute;
+        width:100px;
+        height:150px;
+    }
+    #example10 {
+        display:block;
+        position:absolute;
+        width:560px;
+        height:230px;
+    }
+    [id^="example12-"] {
+        width:500px;
+        height:16px;
+        margin:0px;
+        clear:both;
+        overflow:hidden;
+        margin-top:-1px;
+        border-radius:0px;
+    }
+    [id^="example13-"] {
+        width:440px;
+        height:auto;
+        clear:both;
+        margin:10px;
+        border-radius:0px;
+    }
+    [id^="example1a-"], [id^="example2-"], [id^="example3a-"], [id^="example3b-item-"], [id^="example3d-item-"], [id^="example3f-item-"] {
+        display:block;
+        position:absolute;
+    }
+    .example8a-inside {
+        display:block;
+        position:relative;
+        float:left;
+    }
+    .example7a-inside {
+        display:block;
+        position:relative;
+        float:left;
+        clear:both;
+    }
+    [id^="example7a-"], [id^="example8a-"] {
+        display:block;
+        position:absolute;
+    }
+    [id^="example2-"], [id^="example3a-"] {
+        margin-left:-150px;
+    }
+    [id^="example3b-item-"], [id^="example3d-item-"], [id^="example3f-item-"] {
+        margin-left:100px;
+    }
+    .no-touch [id^="example1b-"]:hover, .no-touch [id^="example101b-"]:hover, .no-touch [id^="example2-"]:hover, .no-touch [id^="example3a-"]:hover, .no-touch [id^="example3b-"]:hover, .no-touch [id^="example3d-"]:hover, .no-touch [id^="example3f-"]:hover, .no-touch [id^="example4a-"]:hover, .no-touch [id^="example4b-"]:hover, .no-touch [id^="example7a-"]:hover, .no-touch [id^="example7b-"]:hover, .no-touch [id^="example8b-"]:hover, .no-touch [id^="example9-"]:hover, .no-touch [id^="example10-"]:hover, .no-touch [id^="example11-"]:hover, .no-touch [id^="example12-"]:hover, .no-touch [id^="example13-"]:hover, .no-touch [id^="example14-"]:hover, .no-touch [id^="example15-"]:hover, [id^="example1b-"].active, [id^="example101b-"].active, [id^="example3b-"].active, [id^="example3d-"].active, [id^="example3f-"].active, [id^="example4a-"].active, [id^="example4b-"].active, [id^="example7b-"].active, [id^="example8b-"].active, [id^="example9-"].active, [id^="example10-"].active, [id^="example11-"].active, [id^="example12-"].active, [id^="example13-"].active, [id^="example14-"].active, [id^="example15-"].active {
+        background:#92e8ff;
+    }
+    [id^="example2-"].active, [id^="example3a-"].active {
+        background:#fcfcfc;
+    }
+    #example3b-click-prev, #example3b-click-next, #example3d-click-prev, #example3d-click-next, #example3f-click-prev, #example3f-click-next {
+        display:block;
+        position:relative;
+        float:left;
+        margin-top:40px;
+        top:10px;
+        left:190px;
+    }
+    #example2-click-prev, #example2-click-next {
+        top:210px;
+        left:200px;
+    }
+    #example7a-click-prev, #example7a-click-next {
+        top:389px;
+    }
+    #example9-click-prev, #example9-click-next {
+        top:210px;
+    }
+    #mycounter {
+        text-decoration: none;
+        display:block;
+        position:relative;
+        float:left;
+        font-size:12px;
+        padding:5px 0px 5px 10px;
+        margin:6px 0px;
+    }
+    /* scrolls */
+    #example10-click-scrollOut, #example9-click-scrollOut, #example7a-click-scrollOut {
+        color:#3c3c3c;
+        background: #fcfcfc;
+        
+        top:222px;
+        display:block;
+        position:relative;
+        float:left;
+        width:370px;
+        height:19px;
+        background:#e2e2e2;
+        margin:0px 10px;padding:0px;
+        border:0px solid #3c3c3c;
+    }
+    #example7a-click-scrollOut {
+        top:400px;
+    }
+    #example10-click-scrollIn, #example9-click-scrollIn, #example7a-click-scrollIn {
+        color:#3c3c3c;
+        border:2px solid #b3b3b3;
+        background: #fcfcfc;
+    
+        display:block;
+        position:absolute;
+        width:60px;
+        height:15px;
+        background:#fcfcfc;
+        margin:0px;padding:0px;
+    }
+    .no-touch #example10-click-scrollIn:hover, #example10-click-scrollIn.active, .no-touch #example9-click-scrollIn:hover, #example9-click-scrollIn.active, .no-touch #example7a-click-scrollIn:hover, #example7a-click-scrollIn.active {
+        background:#92e8ff;
+    }
+    #example10-click-scrollOut {
+        z-index:999;
+        margin-top:-206px;
+        margin-left:500px;
+        width:19px;
+        height:200px;
+    }
+    #example10-click-scrollIn {
+        width:15px;
+        height:60px;
+    }
+    /* drags */
+    #example7a-click-dragOut, #example8a-click-dragOut, #example9-click-dragOut, #example10-click-dragOut {
+        border-radius:20px;
+        overflow:hidden;
+        float:left;
+        width:490px;
+        height:190px;
+        left:0px;
+        margin:0px;padding:0px;
+        border:2px solid #e2e2e2;
+    }
+    #example7a-click-dragIn, #example8a-click-dragIn, #example9-click-dragIn, #example10-click-dragIn {
+        display:block;
+        position:absolute;
+        width:1200px;
+        height:190px;
+        margin:0px;padding:0px;
+    }
+    #example10-click-dragIn {
+        width:2400px;
+    }
+    #example9-click-dragOut {
+        opacity:0;filter:alpha(opacity=0);border-radius:0px;
+        width:520px;
+        height:210px;
+    }
+    #example9-click-dragIn {
+        opacity:0;filter:alpha(opacity=0);border-radius:0px;
+        height:210px;
+    }
+    #example10-click-dragOut {
+        z-index:900;
+        opacity:0;filter:alpha(opacity=0);border-radius:0px;
+        width:480px;
+        height:230px;
+    }
+    #example10-click-dragIn {
+        opacity:0;filter:alpha(opacity=0);border-radius:0px;
+        height:210px;
+    }
+    #example7a-click-dragOut {
+        height:378px;
+        background: transparent;
+    }
+    #example7a-click-dragIn {
+        border:0px solid #3c3c3c;
+        border-radius: 0px;
+        background: transparent;
+    }
+    

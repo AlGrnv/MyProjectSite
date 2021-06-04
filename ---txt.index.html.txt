@@ -1,0 +1,1291 @@
+﻿
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="fonts/font-awesome/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/netdna.font-awesome.css">
+  <link rel="stylesheet" href="libs/fullPage/fullpage.css">
+  <link rel="stylesheet" href="libs/fancybox/fancybox@3.5.7.min.css">
+  <link rel="stylesheet" href="libs/fancybox/jquery.custom.fancybox.css">
+  <link rel="stylesheet" href="libs/slick/slick.css">
+  <link rel="stylesheet" href="libs/slick/slick-theme.css">
+  <link rel="stylesheet" href="libs/bxslider/jquery.bxslider.css">
+  <link rel="stylesheet" href="libs/bxslider/custom.bxslider.css">
+  <link rel="stylesheet" href="libs/animate/animate.css">
+  <link rel="stylesheet" href="libs/animate/hover.css">
+  <link rel="stylesheet" href="libs/animate/" />
+  <link rel="stylesheet" href="css/top-panel.css" />
+  <link rel="stylesheet" href="css/content.css" />
+  <!-- <link rel="stylesheet" href="css/style-content.css"> -->
+
+  <!-- <link rel="stylesheet" href="Css/tabs-box.css"/> -->
+  <link rel="stylesheet" href="css/accordion-ver.css" />
+  <!-- <link rel="stylesheet" href="Css/tooltip-style.css"> -->
+  <link rel="stylesheet" href="css/botttom-panel.css">
+  <script src="libs/modernizr/modernizr.js"></script>
+  <script src="libs/modernizr/modernizr.custom.js"></script>
+  <script src="libs/jquery-migrate/jquery-migrate.min.js"></script>
+  <script src="libs/jquery/jquery@3.5.1.min.js"></script>
+  <script src="js/jquery/jquery-ui.min.js"></script>
+  <script src="js/jquery/jquery.easing.min.js"></script>
+  <script src="libs/fancybox/fancybox@3.5.7.min.js"></script>
+  <script src="libs/fullPage/fullpage.js"></script>
+  <script src="libs/slick/slick.js"></script>
+  <script src="libs/bxslider/jquery.bxslider.js"></script>
+
+
+  <script src="js/init-script.js"></script>
+  <script src="js/js.js"></script>
+
+</head>
+
+<body>
+  <input class="open" id="top-box" type="checkbox" hidden>
+  <label id="btn-top-box" class="btn" for="top-box"></label>
+  <div class="top-panel">
+    <div class="message">
+      <div class="trigger-card">
+        <div class="trigger-card-btn trigger-card-home">
+          <ul id="menu" class="toggleMenu">
+            <li data-menuanchor="firstPage">
+              <a href="#firstPage">титульная</a>
+            </li>
+            <li data-menuanchor="secondPage">
+              <a href="#secondPage">контент</a>
+            </li>
+          </ul>
+        </div>
+        <div class="trigger-card-btn trigger-card-item-1">
+          red&nbsp; showroom
+        </div>
+        <div class="trigger-card-btn trigger-card-item-2">
+          yellow&nbsp; showroom
+        </div>
+        <div class="trigger-card-btn trigger-card-item-3">
+          green&nbsp; showroom
+        </div>
+        <div class="trigger-card-btn trigger-card-item-4">
+          blue&nbsp; showroom
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <main id="main" class="main">
+    <div id="left-column" class="left-column">
+      <div class="menu-tultip">menu</div>
+    </div>
+    <div id="content-column" class="content-column">
+      <!-- <div class="wrap-trgger">
+          <div class="md-triggger" data-modal="modal-top"></div>
+        </div> -->
+      <div class="content-wrap">
+        <div id="fullpage">
+          <div class="title_page layout section active ">
+            <div class="title_page_header">
+            </div>
+            <div>
+              <div class="title_page_content title_page_left">
+                <div class="wrap-left-box">
+
+
+
+                </div>
+              </div>
+              <div class="title_page_content title_page_centr">
+                <!--слайдер  -->
+                <!-- <div class="wrap-presentetion-slider">
+                    <div class="pr-slider">
+                      <div><img src="image/kitchen_adventurer_caramel.jpg" alt=""></div>
+                      <div><img src="image/kitchen_adventurer_cheesecake_brownie.jpg" alt=""></div>
+                      <div><img src="image/kitchen_adventurer_donut.jpg" alt=""></div>
+                      <div><img src="image/kitchen_adventurer_lemon.jpg" alt=""></div>
+                      <div><img src="image/sl1.jpg" alt=""></div>
+                      <div><img src="image/sl5.jpg" alt=""></div>
+                      <div><img src="image/sl3.jpg" alt=""></div>
+                    </div>
+                  </div> -->
+                <div>
+                </div>
+              </div>
+              <div class="title_page_content title_page_right">
+                <div class="wrap-right-box">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <div id="content-box" class="content-box">
+              <img class="loader" src="image/loader.gif" alt="Загрузка">
+            </div>
+            <!-- <div id="indicatorLoad" class="indicatorLoad"></div> -->
+            <div class="pagination"></div>
+            <div id="wrap-slider" class="wrap-slider">
+              <div id="map-home" class="showroom-map">
+                <div class="card card1"></div>
+                <div class="card card2"></div>
+                <div class="card card3"></div>
+                <div class="card card4"></div>
+              </div>
+              <div id="showroom-1" class="showroom">
+                <div id="sr_sl_section_1" class="showrooms-slider-section-1 showroom-page">
+                  <!-- <div id="showroom-1-show-box" class="content-box">
+                    <div  class="showItem"></div>
+                  </div> -->
+                  <div id="showroom-1-preview" class="preview-box">
+                    <a class="item-1-1" href="include-sub-web-page/index-article-1-001.html">
+                      <div class="preview">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+                      </div>
+                    </a>
+                    <a class="item-1-2" href="include-sub-web-page/index-article-1-002.html">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-3" href="include-sub-web-page/index-article-1-003.html">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-4" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-5" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-6" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-7" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-8" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-9" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-10" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-11" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-12" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-13" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-1-14" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+              <div id="showroom-2" class="showroom">
+                <div id="sr_sl_section_2" class="showrooms-slider-section-2 pr-slider showroom-page">
+                  <!-- <div id="showroom-2-show-box" class="content-box">
+                    <div class="showItem"></div>
+                  </div> -->
+                  <div id="showroom-2-preview" class="preview-box">
+                    <a class="item-2-1" href="include-sub-web-page/index-article-2-001.html">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolot consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-2" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-3" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-4" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-5" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-6" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-7" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-8" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-9" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-10" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-11" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-12" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-13" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-2-14" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div id="showroom-3" class="showroom">
+                <div id="sr_sl_section_3" class="showrooms-slider-section-3 pr-slider showroom-page">
+                  <!-- <div id="showroom-3-show-box" class="content-box">
+                    <div class="showItem"></div>
+                  </div> -->
+                  <div id="showroom-3-preview" class="preview-box">
+                    <a class="item-3-1" href="include-sub-web-page/index-article-3-001.html">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolot consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-2" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-3" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-4" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-5" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-6" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-7" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-8" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-9" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-10" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-11" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-12" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-13" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-3-14" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div id="showroom-4" class="showroom">
+                <div id="sr_sl_section_4" class="showrooms-slider-section-4 pr-slider showroom-page">
+                  <!-- <div id="showroom-4-show-box" class="content-box">
+                    <div class="showItem"></div>
+                  </div>          -->
+                  <div id="showroom-4-preview" class="preview-box">
+                    <a class="item-4-1" href="include-sub-web-page/index-article-4-001.html">
+                      <div class="preview">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+
+
+                      </div>
+                    </a>
+                    <a class="item-4-2" href="">
+                      <div class="preview">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+
+
+                      </div>
+                    </a>
+                    <a class="item-4-3" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-4" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-5" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-6" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-7" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-8" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-9" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-10" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-11" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-12" href="">
+                      <div class="preview">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-13" href="">
+                      <div class="preview">
+
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                    <a class="item-4-14" href="">
+                      <div class="preview">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit vel aliquid beatae
+                        ratione perferendis delectus animi a repudiandae, placeat tempore maiores, veritatis enim
+                        earum dolores quidem architecto quis nulla!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vel alias ratione at
+                        voluptates impedit quos qui, dolores corrupti minus est ipsum? Culpa repudiandae ipsa
+                        deserunt ipsam maxime accusantium at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis aperiam adipisci quam
+                        consequatur in eligendi quis unde doloremque qui officia tenetur sapiente voluptatibus
+                        maxime, inventore, odio incidunt optio et?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo voluptate, earum sint
+                        illo, perferendis aut aspernatur, quo reiciendis qui natus. Recusandae harum esse molestias
+                        ducimus labore odit. Eaque, impedit.
+
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="section">
+              <div>Three</div>
+            </div> -->
+        </div>
+      </div>
+    </div>
+    <div id="right-column" class="right-column">
+      <div class="btn-autorization">
+        <a id="autorization" class="autorization" data-fancybox="" data-type="iframe" data-src="include-sub-web-page/index-form-autorization.html" href="javascript:;" tooltip="авторизация" flow="left">
+        </a>
+      </div>
+      <div class="arrow-up"></div>
+      <div class="arrow-down"></div>
+    </div>
+  </main>
+  <div id="modal-bottom">
+    <a class="mb-btn-open js-click-modal-comment" tooltip="коментарии" flow="right">
+      <i class="fa fa-comments-o" aria-hidden="true"></i>
+    </a>
+    <div class="modal modal-left">
+      <header class="header comment-box">
+        <span>коментарии</span>
+        <a class="btn-close btn-close-comment js-close-modal-comment"></a>
+      </header>
+      <div class="mb-content comment-box">
+        <div class="comment-content">
+          <form id="comment_form" class="comment_form" name="comment_form" action="comment.php" method="POST" enctype="multipart/form-data">
+            <div class="wrap-input-comment">
+              <div class="box-inputuser-comment">
+                <span class="icon-color icon-user-comment"></span>
+                <input id="user-name-comment" class="user-name-comment" placeholder="Ваше имя" type="text" value="" name="search" required />
+              </div>
+              <div class="box-buttonsubmit-comment">
+                <span class="icon-color btn-send-icon-comment"></span>
+                <input class="btn-send-comment" type="submit" value="" title="отправить" />
+                <input type="hidden" name="page_id" value="150" />
+              </div>
+            </div>
+            <textarea id="textarea-comment" cols="30" rows="50" placeholder="ДОБАВИТЬ КОМЕНТАРИИ"></textarea>
+          </form>
+        </div>
+      </div>
+      <footer class="footer comment-box">
+        <span class="text-style-footer">все права защищены</span>
+      </footer>
+    </div>
+    <a class="mb-btn-open js-click-modal-feedback" tooltip="обратная связь" flow="left">
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+    </a>
+    <div class="modal modal-right">
+      <header class="header comment-box">
+        <span>обратная связь</span>
+        <a class="btn-close btn-close-feedback js-close-modal-feedback"></a>
+      </header>
+      <div class="mb-content comment-box">
+        <div class="feedback-content">
+          <form id="feedback_form" class="feedback_form" name="feedback" action="mail.php" method="post" enctype="multipart/form-data">
+            <!-- Hidden Required Fields это обязательные скрытые плоя-->
+            <input type="hidden" name="project_name" value="Site Name"> <!-- реальное название сайта -->
+            <input type="hidden" name="admin_email" value="admin@mail.com">
+            <!-- реальное название ящика электронной почты -->
+            <input type="hidden" name="form_subject" value="Form Subject">
+            <!-- поле темы письма - заполнить реальным названием -->
+            <!-- END Hidden Required Fields -->
+            <!-- дополнительные  пользовательские поля, их количество не ограничено -->
+            <!-- атрибут name можно заполнить и русскими словами -->
+            <div class="wrap-input-feedback">
+              <div class="box-inputuser-feedback">
+                <span class="icon-color icon-user-feedback"></span>
+                <input id="user-name-feedback" class="user-name-feedback" placeholder="Ваше имя" type="text" value="" name="search" required />
+                <i class="label-user-name-feedback">*</i>
+              </div>
+              <div class="box-inputmail-feedback">
+                <span class="icon-color icon-email-feedback"></span>
+                <input id="user-email-feedback" class="user-email-feedback" placeholder="Ваш @email" type="email" name="email" required pattern="\S+@[a-z]+.[a-z]+" />
+                <i class="label-user-email-feedback">*</i>
+              </div>
+              <div class="box-inputphone-feedback">
+                <span class="icon-color icon-phone-feedback"></span>
+                <input id="user-phone-feedback" class="user-phone-feedback" placeholder="Номер тел." type="tel" name="Phone" pattern="8[0-9]{10}" />
+              </div>
+              <div class="box-buttonsubmit-feedback">
+                <span class="icon-color btn-send-icon-feedback"></span>
+                <input class="btn-send-feedback" type="submit" value="" title="отправить">
+              </div>
+            </div>
+            <textarea id="textarea-feedback" placeholder="ОСТАВИТЬ ОБРАЩЕНИЕ"></textarea>
+            <div class="notes">поля отмеченные * обязательны для заполнения</div>
+          </form>
+        </div>
+      </div>
+      <footer class="footer comment-box">
+        <span class="text-style-footer">все права защищены</span>
+      </footer>
+    </div>
+  </div>
+  <!-- script teg -->
+  <div>
+    <script src="js/jsTopModal/classie.js"></script>
+    <script src="js/jsTopModal/modalEffects.js"></script>
+    <script>
+      var polyfilter_scriptpath = '/js/';
+    </script>
+    <script src="js/jsTopModal/cssParser.js"></script>
+    <script src="js/jsTopModal/css-filters-polyfill.js"></script>
+  </div>
+</body>
+
+</html>

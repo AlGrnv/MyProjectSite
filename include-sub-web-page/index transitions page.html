@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>A Collection of Page Transitions</title>
+		<meta name="description" content="A Collection of Page Transitions with CSS Animations" />
+		<meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="../css/includ page component transitions.css" />
+		<script src="../libs/jquery/jquery@3.5.1.min.js"></script>
+		<script src="../js/modernizr/modernizr.custom.js"></script>
+		<style>
+			.fancybox-slide--iframe .fancybox-content {
+				background: #fff;
+				width: 800px;
+				height: 98%;
+				max-width: 95%;
+				max-height: 80em;
+				margin: 0;
+}
+		</style>
+	
+	
+	</head>
+	<body>	
+
+		<div class="pt-triggers">
+			<button id="iterateEffects" class="pt-touch-button">next</button>
+			<div id="dl-menu" class="dl-menuwrapper" style="visibility: hidden;">
+			
+				<button class="dl-trigger">Choose a transition</button>
+				<ul class="dl-menu">
+					
+						<li data-animation="1" pt-page><a href="#">Move to left/ from right</a></li>
+						<li data-animation="2"><a href="#">Move to right/ from left</a></li>
+						<li data-animation="3"><a href="#">Move to top/ from bottom</a></li>
+						<li data-animation="4"><a href="#">Move to bottom/ from top</a></li>
+					
+
+						
+						<!-- <a href="#">Move</a>
+						<ul class="dl-submenu">
+							<li data-animation="1"><a href="#">Move to left/ from right</a></li>
+							<li data-animation="2"><a href="#">Move to right/ from left</a></li>
+							<li data-animation="3"><a href="#">Move to top/ from bottom</a></li>
+							<li data-animation="4"><a href="#">Move to bottom/ from top</a></li>
+						</ul> -->
+					 
+				</ul>
+			</div><!-- /dl-menu-wrapper-->
+		</div><!-- /triggers -->
+
+		<div id="pt-main" class="pt-perspective">
+			<div class="pt-page pt-page-1">
+				<div class="pagination page"><span>страница 1</span><span>из 6</span></div>
+				<h1>
+					<span>A collection of</span>
+					<strong>Page</strong> Transitions
+				</h1>
+			</div>
+			<div class="pt-page pt-page-2">
+				<div class="pagination page"><span>страница 2</span><span>из 6</span></div>
+				<h1><span>A collection of</span>
+					<strong>Page</strong> Transitions
+				</h1></div>
+			<div class="pt-page pt-page-3">
+				<div class="pagination page"><span>страница 3</span><span>из 6</span></div>
+				<h1><span>A collection of</span>
+					<strong>Page</strong> Transitions
+				</h1></div>
+			<div class="pt-page pt-page-4">
+				<div class="pagination page"><span>страница 4</span><span>из 6</span></div>
+				<h1><span>A collection of</span>
+					<strong>Page</strong> Transitions
+				</h1></div>
+			<div class="pt-page pt-page-5">
+				<div class="pagination page"><span>страница 5</span><span>из 6</span></div>
+				<h1><span>A collection of</span>
+					<strong>Page</strong> Transition
+				</h1></div>
+			<div class="pt-page pt-page-6">
+				<div class="pagination page"><span>страница 6</span><span>из 6</span></div>
+				<h1><span>A collection of</span>
+					<strong>Page</strong> Transitions
+				</h1></div>
+		</div>
+
+		<div class="pt-message">
+			<p>Your browser does not support CSS animations.</p>
+		</div>
+
+		
+		<script src="../libs/pagetransitions/js/jquery.dlmenu.js"></script>
+		<script src="../libs/pagetransitions/js/pagetransitions.js"></script>
+	</body>
+</html>

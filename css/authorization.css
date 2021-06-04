@@ -1,0 +1,543 @@
+@font-face {
+    font-family: "fontawesome-webfont";
+    src: url("../fonts/font-awesome/fontawesome-webfont.eot");
+    src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/font-awesome/fontawesome-webfont.woff") format("woff"),
+        url("../fonts/font-awesome/fontawesome-webfont.ttf") format("truetype"),
+        url("../fonts/font-awesome/fontawesome-webfont.svg#ffontawesome-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after,
+.container:after,
+.row:after {
+    clear: both;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*::-webkit-input-placeholder {
+    color: rgb(146, 146, 146);
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: rgb(146, 146, 146);
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: rgb(146, 146, 146);
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: rgb(146, 146, 146);
+    opacity: 1;
+}
+
+/* html {
+    height: 100%;
+    min-height: 100%;
+} */
+
+/* ссылка - кнопка ициализации появления блока авторизации*/
+
+.wrapp-accaunt-form {
+    /* width: 100%; */
+    /* height: 300px; */
+    /* height: 98vh; */
+   
+    height: 45vh;
+    font-family: "ubuntu";
+    font-size: 15px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    display: -wedkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 27vh;
+    left: 33%;
+}
+
+#form.form {
+    z-index: 15;
+    position: relative;
+    background: #fff;
+    height: 388px !important;
+    width: 600px;
+    box-shadow: 0 0 12px 1px #000;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.form-toggle {
+    z-index: 10;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: transparent;
+    /* width: 1.6em;
+    height: 1.6em; */
+    border-radius: 100%;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: translate(0, -25%) scale(0);
+    transform: translate(0, -25%) scale(0);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+
+.form-panel {
+    position: absolute;
+    box-sizing: border-box;
+    height: 288px;
+}
+
+.form-panel.one:before {
+    content: '';
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease;
+}
+
+.form-panel.one.hidden:before {
+    display: block;
+    opacity: 1;
+    visibility: visible
+}
+
+.form-panel.one,
+.form-panel.two {
+    position: absolute;
+    width: 546px;
+    height: 100%;
+    padding: 30px calc(44px + 0px) 0 44px;
+}
+
+.form-panel.two.active:before,
+.form-panel.two.active:after {
+    opacity: 0;
+}
+
+.form-panel.two:hover:before,
+.form-panel.two:hover:after {
+    opacity: 1;
+    font-size: 25px;
+    text-shadow: 0px 0px 0 rgb(202, 202, 202),
+        1px -1px 0 rgb(158, 158, 158),
+        2px -2px 0 rgb(115, 115, 115),
+        3px -3px 2px rgba(0, 0, 0, 1),
+        3px -3px 1px rgba(0, 0, 0, 0.5),
+        0px 0px 2px rgba(0, 0, 0, .2);
+    left: 10px;
+    transform: translateX(5px);
+}
+
+.form-panel.two:before {
+    font-family: "fontawesome-webfont";
+    content: '\f234';
+    display: block;
+    position: absolute;
+    top: 38px;
+    left: 16px;
+    transition: 0.3s ease;
+    font-size: 24px;
+    color: rgb(99, 70, 70);
+}
+.form-panel.one {
+    background-color: #dad6d6;
+}
+.form-panel.two {
+    z-index: 5;
+    left: 91%;
+    height: 388px;
+    background: #cff3f3;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-left: 1px solid rgb(99, 70, 70)
+}
+
+.form-panel.two:after {
+    /* left: 8%; */
+    left: 19px;
+}
+
+.form-panel.two:hover {
+    left: 91%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: "fontawesome-webfont";
+    content: '\f057';
+    display: block;
+    position: absolute;
+    rotate: 180ed;
+}
+
+#form .form-panel.two.active {
+    font-family: inherit;
+    left: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    height: 100%;
+}
+
+.form-toggle.visible {
+    -webkit-transform: translate(0, -25%) scale(1);
+    transform: translate(0, -25%) scale(1);
+    opacity: 1;
+}
+
+.form-toggle.visible::before {
+    font-family: "fontawesome-webfont";
+    content: "\f057 ";
+    font-size: 24px;
+    font-weight: normal;
+    position: relative;
+    left:5px;
+    color: rgb(99, 70, 70);
+}
+
+.form-toggle.visible:hover::before {
+    opacity: 1;
+    font-size: 28px;
+}
+
+.form-login {
+    height: 278px;
+}
+
+.overlay,
+.form-panel.one:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background: rgb(140 140 140);
+    width: 100%;
+    height: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    left: 2px;
+    width: 416px;
+    height: 42px;
+    margin: 10px 16px;
+}
+
+.form-registration .form-group:last-child {
+    position: relative;
+    top: 19px;
+    width: 240px;
+}
+
+.form-login .form-group:nth-child(3) {
+    height: 42px;
+}
+
+.form-group label {
+    display: block;
+    margin: 0 0 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+#form .form-header {
+    position: relative;
+    top: 2px;
+    left: 16px;
+    width: 421px;
+    height: 50px;
+    /* padding-top: 8px; */
+    margin: 0;
+    /* border: 0.1em solid #fdfdfd; */
+    /* box-shadow: 0 0 4px rgb(41, 40, 40);
+    border-radius: 5px;
+    background-color: #cccaca;
+    background: -webkit-linear-gradient(0deg, rgba(178,181,183,1) 0, rgba(219,217,217,1) 44%, rgba(219,217,217,1) 58%, rgba(189,190,191,1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(178,181,183,1) 0, rgba(219,217,217,1) 44%, rgba(219,217,217,1) 58%, rgba(189,190,191,1) 100%);
+    background: linear-gradient(90deg, rgba(178,181,183,1) 0, rgba(219,217,217,1) 44%, rgba(219,217,217,1) 58%, rgba(189,190,191,1) 100%); */
+}
+
+.form-content {
+    position: absolute;
+    top: 86px;
+    height: 278px;
+}
+
+.form-header .ribbon    {
+    width: 414px;
+    height: 50px;
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    text-align: center;
+    font-size: 16px!important;
+    background-image: -ms-linear-gradient(top, #969b9e 0%, #8c8a88 100%);
+    font-family: 'Helvetica Neue',Helvetica, sans-serif;
+    background-color: #cccaca;
+    background: -webkit-linear-gradient(0deg, rgba(178,181,183,1) 0, rgba(219,217,217,1) 44%, rgba(219,217,217,1) 58%, rgba(189,190,191,1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(178,181,183,1) 0, rgba(219,217,217,1) 44%, rgba(219,217,217,1) 58%, rgba(189,190,191,1) 100%);
+    background: linear-gradient(90deg, rgba(178,181,183,1) 0, rgba(219,217,217,1) 44%, rgba(219,217,217,1) 58%, rgba(189,190,191,1) 100%); 
+    box-shadow: 0 0 4px rgb(41, 40, 40);
+    -webkit-box-shadow: 0 0 4px rgb(41, 40, 40);
+    -moz-box-shadow: 0 0 4px rgb(41, 40, 40);
+}
+
+.form-header .ribbon  h4     {
+    font-size: 21px!important;
+    color: #801111;
+    text-shadow: #d65c5c 0 1px 0;
+    margin:0px;
+    padding: 11px 10px;
+}
+
+.form-header .ribbon .ribbon-stitches-top   {
+    margin-top:2px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
+}
+
+.form-header .ribbon .ribbon-stitches-bottom {
+    margin-bottom:2px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+.form-group input {
+    outline: none;
+    display: block;
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+    color: rgb(12,12,12); /* цвет для вводимого текста */
+    text-shadow: 0 1px #0e0e0e, 1px 0 #afafaf;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: inherit;
+    transition: 0.3s ease;
+    position: relative;
+    /* border: none; */
+    padding: 0 18px;
+    border-bottom: 0.1vh solid #c55050;
+    /* box-shadow: 0 1px #696969; */
+    top: 10px;
+    left: 0;
+}
+
+#form-registration input#email {
+    border: none;
+
+}
+
+/* #form-login .form-group:nth-child(1) input,
+#form-login .form-group:nth-child(2) input,
+#form-registration .form-group:nth-child(1) input, 
+#form-registration .form-group:nth-child(2) input,
+#form-registration .form-group:nth-child(3) input{
+    top: 10px;
+    left: 0; 
+    -webkit-box-shadow: 0 1px #696969;
+	-moz-box-shadow: 0 1px #696969;
+    box-shadow: 0 1px #696969;
+} */
+
+/* цвет и стиль для текста под курсором  */
+.form-group input:focus {
+    color: rgb(83, 28, 28);
+    font-weight: 300;
+    /* text-transform: uppercase; */
+    /* background-color: rgba(145, 106, 106, 0.8); */
+}
+
+.form-group .form-remember {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-bottom: 0;
+    position: relative;
+    top: 23px;
+}
+
+.form-group .form-remember input[type='checkbox'] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0 9px 0 0;
+    position: absolute;
+    top: 17px;
+}
+
+#form-registration .form-group input:not(input#email),
+#form-login .form-group input:not([type='checkbox']) {
+    -webkit-box-shadow: 0 1px #696969;
+	-moz-box-shadow: 0 1px #696969;
+    box-shadow: 0 1px #696969;
+}
+
+
+.remember {
+    position: relative;
+    top: 19px;
+    left: 27px;
+    color: rgb(66 62 62);
+}
+
+.form-group .form-recovery {
+    color: #005ffd;
+    font-size: 14px;
+    text-decoration: none;
+    text-shadow: 0 1px 2px #5c5c5d, 0 0 4px #fff;
+    position: relative;
+    top: 41px;
+    left: 0;
+}
+
+.form-group .form-recovery:hover {
+    font-size: 16px;
+    left: 0;
+}
+
+.form-group .form-recovery:active {
+    color: rgb(38, 102, 19);
+}
+
+.form-group .form-btn {
+    position: relative;
+    left: 0;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    border-color: #c5c5c5;
+    border-radius: 4px;
+    padding: 10px;
+    color: #3c3c3c;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 0 #e2e2e2, 0 -1px 1px #5d5d5d;
+    cursor: pointer;
+    background: rgb(171, 171, 171);
+    background: -webkit-linear-gradient(-45deg, rgba(150,150,150,1) 0, rgba(178,181,183,1) 36%, rgba(219,217,217,1) 71%, rgba(219,217,217,1) 100%);
+    background: -moz-linear-gradient(135deg, rgba(150,150,150,1) 0, rgba(178,181,183,1) 36%, rgba(219,217,217,1) 71%, rgba(219,217,217,1) 100%);
+    background: linear-gradient(135deg, rgba(150,150,150,1) 0, rgba(178,181,183,1) 36%, rgba(219,217,217,1) 71%, rgba(219,217,217,1) 100%);
+    -webkit-box-shadow: 0 0 2px #000;
+	-moz-box-shadow: 0 0 2px #000;
+    box-shadow: 0 0 2px #000;
+}
+
+/* #form-login .form-group .form-btn:active,
+#form-registration .form-group .form-btn:active */
+#one-form-btn.form-btn:active, 
+#two-form-btn.form-btn:active {
+    /* background-color: rgb(35,136,4); */
+    border-bottom-color:  #446948;
+    border-bottom-color: #446948;
+    border-top-color: #08270c;
+    border-right-color: #08270c;
+    color: #cff3f3;
+    background: rgb(35,136,4);
+}
+
+.one-form-btn {
+    top: 47px;
+    left: 33px;
+}
+
+.two-form-btn {
+    top: 0px;
+    left: 12px;
+}
+
+.clear-input {
+    position: relative;
+    left: 386px;
+    top: -52px;
+    width: 50px;
+    height: 50px;
+    border: 0.1em solid rgb(84, 75, 75, 1);
+    box-shadow: 0 0 2px #000;
+    border-radius: 4px;
+    padding: 0 0 2px 0;
+    cursor: pointer;
+    outline: none; 
+    /* border: none; */
+}
+
+.clear-input:hover {
+    background-color: #3cb4a0;
+    border-color: #305c55;
+    color: #fff;
+    font-weight: 500;
+}
+
+.clear-input:active {
+    border: 0em solid transparent;
+    background-color: rgb(35, 136, 4);
+}
+
+/* .wrapp-accaunt-form.error {
+        background: #f04000;
+    }
+    .wrapp-accaunt-form.error fieldset {
+        box-shadow: 0 8px 10px #bd3200;
+        }
+    */

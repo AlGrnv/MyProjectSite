@@ -1,0 +1,130 @@
+﻿    /**
+    * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+    * http://www.cssportal.com
+    */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    display: block;
+    }
+    body {
+    line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    blockquote, q {
+    quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    }
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+    
+    :focus {
+	outline: none;
+	}
+	button::-moz-focus-inner,
+	input[type="reset"]::-moz-focus-inner,
+	input[type="button"]::-moz-focus-inner,
+	input[type="submit"]::-moz-focus-inner,
+	input[type="submit"]::-moz-focus-inner,
+	input[type="file"] > input[type="button"]::-moz-focus-inner {
+	border: none;
+	}
+	:focus {
+	-moz-outline: 3px solid #fff !important;
+	}
+	input[type="radio"]:focus {
+	-moz-outline-radius: 12px !important;
+	-moz-outline-offset: 0px !important;
+	}
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    *:before, *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    html {
+        height: 100%;
+        min-height: 100%;
+        overflow: -moz-hidden-unscrollable;
+    }
+
+    /* стили для надписей в полях ввода */
+    *::-webkit-input-placeholder {
+        color: #666;
+        opacity: 1;
+    }
+    *:-moz-placeholder {
+        color: #666;
+        opacity: 1;
+    }
+    *::-moz-placeholder {
+        color: #666;
+        opacity: 1;
+    }
+    *:-ms-input-placeholder {
+        color: #666;
+        opacity: 1;
+    }
+    /* стили для полосы прокрутки */
+    ::-webkit-scrollbar-button {
+        /*background-image:url('');*/
+        background-repeat:no-repeat;
+        width:2px;
+        height:0
+    }
+    ::-webkit-scrollbar-track {
+        background-color: /*#32312e*/transparent;
+        /* box-shadow:0 0 3px #000 inset; */
+    }
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        background-color:#d4d6d6;
+        /* box-shadow:0 1px 1px #fff inset; */
+        /*background-image:url('https://yraaa.ru/_pu/24/59610063.png');*/
+        background-position: center;
+        background-repeat:no-repeat;
+    }
+    ::-webkit-resizer{
+        /*background-image: url('');*/
+        background-repeat:no-repeat;
+        width:7px;
+        height:0
+    }
+    ::-webkit-scrollbar{
+        width: 2px;
+    }

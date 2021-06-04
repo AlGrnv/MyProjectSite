@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../css/reset.css"> -->
+   
+    <link rel="stylesheet" href="../css/authorization.css">
+    <link rel="stylesheet" href="../css/tooltip-style.css">
+    <script src="../libs/jquery/jquery@3.5.1.min.js"></script> 
+    <style>
+      ::-webkit-scrollbar-button {
+        /*background-image:url('');*/
+        background-repeat:no-repeat;
+        width:2px;
+        height:0                  }
+    ::-webkit-scrollbar-track {
+        background-color: /*#32312e*/transparent;
+        /* box-shadow:0 0 3px #000 inset; */ }
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        background-color:#d4d6d6;
+        /* box-shadow:0 1px 1px #fff inset; */
+        /*background-image:url('https://yraaa.ru/_pu/24/59610063.png');*/
+        background-position: center;
+        background-repeat:no-repeat;  }
+    ::-webkit-resizer{
+        /*background-image: url('');*/
+        background-repeat:no-repeat;
+        width:7px;
+        height:0      }
+    ::-webkit-scrollbar{
+        width: 2px;     }
+
+    /* .fancybox-container {
+      height: 70% !important;
+      width: 53% !important;
+      left: 25% !important;
+      top: 15% !important;
+      } */
+            
+    
+
+     </style>
+
+</head>
+<body>
+
+<!-- Form-->
+<div class="wrapp-accaunt-form">
+  <div id="form" class="form">
+      <div class="form-toggle"></div>
+      <div class="form-panel one">
+        <div class="form-header">
+          <!-- <h4>войдите в свой аккаунт</h4> -->
+          <div  class="ribbon">
+            <div class="ribbon-stitches-top"></div>
+            <strong  class="ribbon-content">
+              <h4>войдите в свой аккаунт</h4>
+            </strong>
+            <div class="ribbon-stitches-bottom"></div>
+          </div>
+        </div>
+        <div class="form-content">
+          <form id="form-login" class="form-login" name="form-login" action="mail.php" mathod="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <input type="text" id="username" name="username" required="required" placeholder="Логин">
+            </div>
+            <div class="form-group">
+              <input type="password" id="password" name="password" required="required" placeholder="Пароль"/>
+            </div>
+            <div class="form-group">
+              <label class="form-remember">
+                <input type="checkbox"/>
+                <span class="remember">запомнить меня</span>
+              </label>
+              <a class="form-recovery" href="#">Забыли пароль?</a>
+            </div>
+            <div class="form-group">
+              <button id="one-form-btn" class="one-form-btn form-btn" type="submit">войти</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="form-panel two" title="создать аккаунт">
+        <div class="form-header">
+          <!-- <h4>создайте новый аккаунт</h4> -->
+          <div  class="ribbon">
+            <div  class="ribbon-stitches-top"></div>
+            <strong class="ribbon-content">
+              <h4>создайте новый аккаунт</h4>
+            </strong>
+            <div class="ribbon-stitches-bottom"></div>
+          </div>
+        </div>
+        <div class="form-content">
+          <form id="form-registration" class="form-registration" name="form-registration" action="mail.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <input type="text" id="newUser" name="Newusername" required="required" placeholder="Никнейм"/>
+            </div>
+            <div class="form-group">
+              <input type="password" id="newUserPassword" name="newPassword" required="required" placeholder="Пароль"/>
+            </div>
+            <div class="form-group">
+              <input type="password" id="newUserPasswordConfirm" name="newPasswordConfirm" required="required" placeholder="Повторить пароль"/>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required="required" pattern="\S+@[a-z]+.[a-z]+" placeholder="Email"/>
+            </div>
+            <div class="form-group">
+              <button id="two-form-btn" class="two-form-btn form-btn" type="submit">Зарегистрировать</button>
+            </div>
+            <button class="clear-input" type="reset" form="form-registration" title="очистить поля">clear</button>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+    
+    <script>
+        $(document).ready(function() {
+        var panelOne = $('.form-panel.two').height(),
+            panelTwo = $('.form-panel.two')[0].scrollHeight;
+
+        $('.form-panel.two').not('.form-panel.two.active').on('click', function(e) {
+            e.preventDefault();
+
+            $('.form-toggle').addClass('visible');
+            $('.form-panel.one').addClass('hidden');
+            $('.form-panel.two').addClass('active');
+            $('.form').animate({
+            'height': panelTwo
+            }, 200);
+        });
+
+        $('.form-toggle').on('click', function(e) {
+            e.preventDefault();
+            $(this).removeClass('visible');
+            $('.form-panel.one').removeClass('hidden');
+            $('.form-panel.two').removeClass('active');
+            $('.form').animate({
+            'height': panelOne
+            }, 200);
+        });
+        });
+
+
+        // $('#autorization').on('click',function(){
+        //   $('#form-login #username').focus();
+        // });
+        // $('.form-panel.two:hover:before').on('click',function(){
+        //   $('#form-registration #newUser').focus();
+        // });
+    </script>
+</body>
+</html>

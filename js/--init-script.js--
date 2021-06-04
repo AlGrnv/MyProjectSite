@@ -1,0 +1,38 @@
+
+    $(document).ready(function() {
+        $('.btn2').on('click',function(){
+            $('.sf-input').focus();
+        });
+        $('.btn3').on('click',function(){
+            $('#username-panel-one').focus();
+        });
+        $('.panel-form.two:before').on('click',function(){
+            $('#username-panel-two').focus();
+        });
+        $('.btnb1').on('click',function(){
+            $('#footer_comment').focus();
+        });
+        $('.btnb2').on('click',function(){
+            $('#footer_feedback').focus();
+        });
+
+        $('.js-click-modal-comment').on('click',function(){
+          $('.modal-comment').addClass('modal-open');
+        });
+
+        $('.js-close-modal-comment').on('click',function(){
+          $('.modal-comment').removeClass('modal-open');
+        });
+
+        $('.js-click-modal-feedback').on('click',function(){
+          $('.modal-feedback').addClass('modal-open');
+        });
+
+        $('.js-close-modal-feedback').on('click',function(){
+          $('.modal-feedback').removeClass('modal-open');
+        });
+        
+    });
+
+    
+    
